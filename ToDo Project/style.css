@@ -1,0 +1,103 @@
+*
+{ 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body
+{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 100px;
+}
+.get-button button
+{
+    padding: 20px 20px;
+}
+.inputs
+{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    margin-left: 23%;
+
+}
+h2
+{
+    font-size: 32px;
+}
+.data
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 5px;
+
+}
+.data input
+{
+    padding: 5px;
+    outline: none;
+    border: 1px solid brown;
+}
+.data button
+{
+    background-color:brown;
+    padding: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.list
+{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    padding: 10px 20px;
+    
+    align-items: flex-start;
+}
+.box
+{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+.items
+{
+    background-color: brown;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+
+}
+.task.is-dragging
+{
+    background-color: brown;
+    color: white;
+}
+.get-location button
+{
+    
+    background-color:white;
+    padding: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    color: black;
+    border-radius: 50px 50px;
+}
